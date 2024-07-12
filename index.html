@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="wrap">
+        <div>
+            PC <span id="counter">0</span>
+            MAR <span id="mar">0</span>
+            MBR <span id="mbr">0</span>
+        </div>
+        <div id="accBox">
+          ACC <span id="acc">0</span>
+          <table>
+            <tr>
+              <td id="operand1">&nbsp;</td>
+              <td id="operator">&nbsp;</td>
+              <td id="operand2">&nbsp;</td>
+              <td id="result" style="border: 2px solid black;">&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <table>
+              <tr>
+                <th>op</th>
+                <th>dst</th>
+                <th>src</th>
+              </tr>
+              <tr>
+                <td id="op">&nbsp;</td>
+                <td id="dst">&nbsp;</td>
+                <td id="src">&nbsp;</td>
+              </tr>
+            </table>
+        </div>
+      
+
+        <button onclick="next()">next()</button>
+        <div class="memory">
+            <h3 style="display: block;">Memory</h3>
+            <ul id="memoryBox">
+                
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
